@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harithasanr_MultiBranch_Public_Project_1702537813283-pr-trigger-input-set
+  identifier: Build_harithasanr_MultiBranch_Public_Project_1702537813283prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harithasanr_MultiBranch_Public_Project_1702537813283
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
